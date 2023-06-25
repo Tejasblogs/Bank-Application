@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank Application</title>
+<link rel="stylesheet" type="text/css" href="Css/Index.css">
+</head>
+<body>
+	<div class="navbar">
+		<a href="#" class="logo"><img alt="LOGO" src="img/logo.jpg" height="45px" width="150px"></a>
+		<h1>STATE BANK OF INDIA</h1>
+		<a href="AddAccount.html" class="opration">Add Account</a>	
+		<a href="DisplayAccount.html" class="opration">Display Accounts</a>
+	</div>
+	<div>
+		<form action="transaction" method="post">
+			<div class="form">
+				<table>					
+				  <tr>
+				  	<td><label style="font-size: large;">Enter Account Number</label></td>
+				    <td><input type="text" name="accNo" placeholder="Enter Account Number"></td>			    
+				  </tr>
+				  <tr>
+				  	<td><label style="font-size: large;">Enter Amount</label></td>
+				  	<td><input type="text" name="amt" placeholder="Enter Amount"></td>
+				  </tr>
+				  <tr>
+				    <td ><input type="submit" value="DEPOSITE" name="deposite" class="btn"></td>
+				    <td ><input type="submit" value="WITHDRAW" name="withdraw" class="btn"></td>
+				  </tr>
+				</table>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Account</title>
+<link rel="stylesheet" type="text/css" href="Css/AddAccount.css">
+</head>
+<body>
+	<div class="navbar">
+		<a href="Index.html" class="logo"><img alt="LOGO" src="img/logo.jpg" height="45px" width="150px"></a>
+		<h1>STATE BANK OF INDIA</h1>		
+		<a href="DisplayAccount.html" class="opration">Display Accounts</a>
+	</div>
+	<form action="addAccount" method="post">
+		<table>
+			<tr>
+				<td></td>
+				<td><label class="name">ADD ACCOUNT</label></td>								
+			</tr>
+			<tr>
+				<td><label style="font-size: large;">Enter User Name</label></td>
+				<td><input type="text" name="name"></td>				
+			</tr>
+			<tr>
+				<td><label style="font-size: large;">Enter Account Number</label></td>
+				<td><input type="text" name="accNo"></td>				
+			</tr>
+			<tr>
+				<td><label style="font-size: large;">Enter Initial Balance</label></td>
+				<td><input type="text" name="initialBal"></td>				
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="ADD ACCOUNT" class="btn"></td>								
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
